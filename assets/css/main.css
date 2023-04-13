@@ -2984,6 +2984,31 @@ body.is-preload .spotlights>section>.content>.inner {
 	margin-bottom: -1em;
 }
 
+.badge {
+	display: inline-block;
+	padding: 0.25rem 0.5rem;
+	font-size: 75%;
+	font-weight: 700;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+	color: #fff;
+}
+
+.badge-language {
+	background-color: #b74e91;
+}
+
+.badge-technology {
+	background-color: #3e4094;
+}
+
+.badge-skill {
+	background-color: rgb(0, 161, 161);
+}
+
 @media screen and (max-width: 1680px) {
 
 	.spotlights>section>.content {
@@ -3156,7 +3181,7 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-	background-color: #b74e91;
+	background-color: #2c7ec1;
 }
 
 .wrapper.style3-alt {
@@ -4028,18 +4053,4 @@ body.is-preload #sidebar nav ul li {
 
 .timeline-entry {
 	margin-right: -2em;
-}
-
-.badge-secondary {
-	display: inline-block;
-	padding: 0.25rem 0.5rem;
-	font-size: 75%;
-	font-weight: 700;
-	line-height: 1;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: baseline;
-	border-radius: 0.25rem;
-	color: #fff;
-	background-color: #dc3545;
 }
