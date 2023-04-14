@@ -3171,6 +3171,10 @@ table.alt tfoot {
 	background-color: #953d75;
 }
 
+.wrapper.style4 {
+	background-color: #4162c4;
+}
+
 .wrapper.fullscreen {
 	display: -moz-flex;
 	display: -webkit-flex;
@@ -3782,8 +3786,8 @@ body.is-preload #sidebar nav ul li {
 /* Profile image */
 .profile_image {
 	overflow: hidden;
-	width: 12em;
-	height: 12em;
+	width: 10em;
+	height: 10em;
 	border-radius: 50%;
 	margin: 0 auto;
 	margin-bottom: 1em;
