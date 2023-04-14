@@ -326,6 +326,9 @@
 				</div>
 			</div>
 		</section>
+		<footer>
+			<p>Linh Nguyen © <span id="currentYear"></span></p>
+		</footer>
 	</div>
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
@@ -335,6 +338,12 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var currentYear = new Date().getFullYear();
+			document.getElementById("currentYear").textContent = currentYear;
+		});
+	</script>
 </body>
 
 </html>
