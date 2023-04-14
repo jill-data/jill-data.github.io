@@ -3796,7 +3796,7 @@ body.is-preload #sidebar nav ul li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-top: 1em;
+	margin-top: 0em;
 	margin-bottom: 1em;
 	font-size: 2em;
 	align-content: space-between;
@@ -3810,8 +3810,8 @@ body.is-preload #sidebar nav ul li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 30px;
-	height: 30px;
+	width: 1em;
+	height: 1em;
 	border-radius: 50%;
 	transition: background-color 0.2s ease;
 }
@@ -4075,6 +4075,10 @@ body.is-preload #sidebar nav ul li {
 	-ms-transform: scale(1);
 	transform: scale(1.5);
 	opacity: 1;
+}
+
+.features section .fas {
+	padding-bottom: 0.2em;
 }
 
 .features .column section a:hover {
