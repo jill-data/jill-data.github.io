@@ -4050,7 +4050,7 @@ body.is-preload #sidebar nav ul li {
 }
 
 .features .column {
-	flex-basis: 50%;
+	flex-basis: 33%;
 }
 
 .features section {
